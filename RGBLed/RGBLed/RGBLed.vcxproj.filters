@@ -20,7 +20,9 @@
   <ItemGroup>
     <None Include="RGBLed.ino" />
     <None Include="src\_micro-api\libraries\RGBLedLib\library.properties" />
-    <None Include="simple.ino" />
+    <None Include="simple.ino">
+      <Filter>Examples</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\_micro-api\libraries\RGBLedLib\src\RGBLedLib.cpp">
